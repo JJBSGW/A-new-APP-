@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    position: sticky;
+    top: 0; /* 使元素始终停留在视口的顶部 */
+    background: #50b3a2;
+    color: #fff;
+    padding-top: 2%;
+    min-height: 70px;
+    border-bottom: #1d2ee8 3px solid;
+    z-index: 2;
+}
+header a {
+    color: #fff;
+    text-decoration: none;;
+    font-size: 20px;
+    font-weight: bold;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline;
+    padding: 0 40px 0 40px;
+}
+header nav {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+header a:hover {
+    color: #1d2ee8;
+}
+.search {
+    float: right;
+    margin-top: 10px;
+    margin-right: 15%;
+}
+
+.btn {
+    background-color: #35aae1;
+    border-radius: 4px;
+}
+button:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#now{
+    color: #1d2ee8  ;
+}
+
+.container_content{
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+    padding-bottom: 100px;
+}
+
+#brand{
+    padding: 20px;
+    margin-left: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.profilepicture {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    border: 2px solid #50b3a2;
+    border-radius: 1em;
+    /*border-top-right-radius: 10% 30%;*/
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.indent{
+    text-indent: 2em;
+    font-size: large;
+    padding: 20px;
+}

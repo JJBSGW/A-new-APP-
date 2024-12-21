@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>运动</title>
+    <link rel="stylesheet" href="style-host.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <li><a href="host.html">首页</a></li>
+            <li><a href="sport.html" id="now">运动</a></li>
+            <li><a href="food.html">饮食</a></li>
+            <li><a href="healthy.html">健康</a></li>
+            <li><a href="account.html">个人中心</a></li>
+        </nav>
+        <div class="search">
+            <i class="fas fa-search" style="transform: scaleX(-1);"></i>
+            <input type="text" name="搜索" required>
+            <button type="submit" class="btn" >搜索</button>
+        </div>
+    </header>
+
+    <div class="container_content">
+        <p id="brand">运动大全</p>
+        <div class="profilepicture" id="carousel2">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <a href="../sport/run.html" target="_blank">
+                            <img src="../picture/run.png" alt="picture 1" title="跑步">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="../sport/swim.html" target="_blank">
+                            <img src="../picture/swim.png" alt="picture 2" title="游泳">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="../sport/jump.html" target="_blank">
+                            <img src="../picture/jump.png" alt="picture 3" title="跳绳">
+                        </a>
+                    </div>
+                </div>
+                <div class="controls">
+                    <span class="prev">&#10094;</span>
+                    <span class="next">&#10095;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="carousel.js"></script>
+</body>
+</html>
